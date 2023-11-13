@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.glow {
+    transition: all 0.3s ease-in-out;
+}
+
+.glow:hover {
+    box-shadow: 0 0 25px rgb(206, 71, 193);
+}
+
+.glowHtml {
+    transition: all 0.3s ease-in-out;
+}
+
+.glowHtml:hover {
+    box-shadow: 0 0 25px #e5532d;
+}
+
+.glowCss {
+    transition: all 0.3s ease-in-out;
+}
+
+.glowCss:hover {
+    box-shadow: 0 0 25px #3d9dd6;
+}
+
+.glowJS {
+    transition: all 0.3s ease-in-out;
+}
+
+.glowJS:hover {
+    box-shadow: 0 0 25px #f7e025;
+}
+.glowReac {
+    transition: all 0.3s ease-in-out;
+}
+
+.glowReac:hover {
+    box-shadow: 0 0 25px #84e4ff;
+}
+.glowTail {
+    transition: all 0.3s ease-in-out;
+}
+
+.glowTail:hover {
+    box-shadow: 0 0 25px #1dc0cd;
+}
+.glowPhp {
+    transition: all 0.3s ease-in-out;
+}
+
+.glowPhp:hover {
+    box-shadow: 0 0 25px #7b7fb5;
+}
+.glowGit {
+    transition: all 0.3s ease-in-out;
+}
+
+.glowGit:hover {
+    box-shadow: 0 0 25px #f05639;
+}
+.glowLaravel {
+    transition: all 0.3s ease-in-out;
+}
+
+.glowLaravel:hover {
+    box-shadow: 0 0 25px #ff3427;
+}
+.glowSql {
+    transition: all 0.3s ease-in-out;
+}
+
+.glowSql:hover {
+    box-shadow: 0 0 25px #08668f;
+}
+
+.img_glow {
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 55px rgb(206, 71, 193) ;
+}
+
+.img_glow:hover {
+    
+    box-shadow: 0 0 75px rgb(207, 11, 188) ;
+}
+
+.neno-button {
+    transition: all 0.3s ease-in-out;
+}
+
+.neno-button:hover {
+    box-shadow: 0 0 15px rgb(206, 71, 193);
+}
+
+.logo {
+   animation: rotate 15s infinite linear;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }100%{
+        transform: rotate(360deg);
+    }
+}
