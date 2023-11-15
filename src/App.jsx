@@ -27,7 +27,7 @@ function App() {
           <Triangle
             height="80"
             width="80"
-            color="#ce47c1"
+            color="#84e4ff"
             ariaLabel="triangle-loading"
             wrapperStyle={{}}
             wrapperClassName=""

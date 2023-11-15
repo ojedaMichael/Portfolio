@@ -13,19 +13,19 @@ function Nav() {
       <div className="lg:hidden block absolute top-[3.5rem] items-center w-full left-0 right-0 bg-slate-900 transition">
         <ul className="text-center text-xl p-20">
           <Link spy={true} smooth={true} to="Home">
-            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded hover:border-fuchsia-600 cursor-pointer hover:text-fuchsia-600">Home</li>
+            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded hover:border-[#84e4ff] cursor-pointer hover:text-[#84e4ff]">Home</li>
           </Link>
           <Link spy={true} smooth={true} to="About">
-            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded hover:border-fuchsia-600 cursor-pointer hover:text-fuchsia-600">About</li>
+            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded hover:border-[#84e4ff] cursor-pointer hover:text-[#84e4ff]">About</li>
           </Link>
           <Link spy={true} smooth={true} to="Services">
-            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded hover:border-fuchsia-600 cursor-pointer hover:text-fuchsia-600">Services</li>
+            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded hover:border-[#84e4ff] cursor-pointer hover:text-[#84e4ff]">Services</li>
           </Link>
           <Link spy={true} smooth={true} to="Projects">
-            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded hover:border-fuchsia-600 cursor-pointer hover:text-fuchsia-600">Projects</li>
+            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded hover:border-[#84e4ff] cursor-pointer hover:text-[#84e4ff]">Projects</li>
           </Link>
           <Link spy={true} smooth={true} to="Contact">
-            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded hover:border-fuchsia-600 cursor-pointer hover:text-fuchsia-600">Contact</li>
+            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded hover:border-[#84e4ff] cursor-pointer hover:text-[#84e4ff]">Contact</li>
           </Link>
         </ul>
       </div>
@@ -41,19 +41,19 @@ function Nav() {
           <div className="flex-10">
             <ul className="flex gap-8 mr-16 text-[18px]">
               <Link spy={true} smooth={true} to="Home">
-                <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Home</li>
+                <li className="hover:text-[#84e4ff] transition border-b-2 border-slate-900 hover:border-[#84e4ff] cursor-pointer">Home</li>
               </Link>
               <Link spy={true} smooth={true} to="About">
-                <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">About</li>
+                <li className="hover:text-[#84e4ff] transition border-b-2 border-slate-900 hover:border-[#84e4ff] cursor-pointer">About</li>
               </Link>
               <Link spy={true} smooth={true} to="Services">
-                <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Services</li>
+                <li className="hover:text-[#84e4ff] transition border-b-2 border-slate-900 hover:border-[#84e4ff] cursor-pointer">Services</li>
               </Link>
               <Link spy={true} smooth={true} to="Projects">
-                <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Projects</li>
+                <li className="hover:text-[#84e4ff] transition border-b-2 border-slate-900 hover:border-[#84e4ff] cursor-pointer">Projects</li>
               </Link>
               <Link spy={true} smooth={true} to="Contact">
-                <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Contact</li>
+                <li className="hover:text-[#84e4ff] transition border-b-2 border-slate-900 hover:border-[#84e4ff] cursor-pointer">Contact</li>
               </Link>
             </ul>
           </div>
