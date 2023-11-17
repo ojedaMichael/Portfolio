@@ -19,8 +19,10 @@ function Footer() {
         </div>
         <div className="mb-4 md:mb-4">
           <h2 className="text-[22px] font-semibold text-[#84e4ff] py-2 uppercase">Contact</h2>
+
           <p className="text-[16px] my-4">Email: ojedamichael62@gmail.com</p>
           <p className="text-[16px] my-4">Phone: +56 9 4633 0904</p>
+          <p className="text-[16px] my-4">My Resume CV <a className="font-semibold text-[#84e4ff]" href="https://me.iculum.com/cv/michaelojeda/">Click me</a></p>
         </div>
         <div>
         <h2 className="text-[22px] font-semibold text-[#84e4ff] py-2 uppercase">Follow Me</h2>
